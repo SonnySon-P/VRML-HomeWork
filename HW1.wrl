@@ -1,0 +1,842 @@
+#VRML V2.0 utf8
+
+WorldInfo {
+	title "Store"
+	info [ "Copyright (c) 2021, SonnySon" ]
+}
+
+Background {
+    skyColor [
+        0.529 0.807 0.980,
+        1.000 1.000 1.000
+    ]	
+    skyAngle [ 1.309, 1.571 ]	
+    groundColor [
+        0.960 0.870 0.772,
+        1.000 0.921 0.803,
+    ]
+}
+
+Viewpoint {
+    position 0.000 25.000 50.000
+	orientation 1.0 0.0 0.0 -0.45
+    description "Entry view"
+}
+
+# Base
+Transform {
+    translation 0.0 0.05 0.0
+    children [
+        DEF Base Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.300 0.300 0.300
+			    }
+			}						
+			geometry Box {
+				size 80.00 0.01 56.00
+			}
+        }
+    ]
+}
+
+# Grassland_1
+Transform {
+    translation 0.00 0.075 0.00
+    children [
+        DEF Grassland_1 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 20.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_2
+Transform {
+    translation 13.00 0.075 0.00
+    children [
+        DEF Grassland_2 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 6.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_3
+Transform {
+    translation -13.00 0.075 0.00
+    children [
+        DEF Grassland_3 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 6.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_4
+Transform {
+    translation -25.00 0.075 0.00
+    children [
+        DEF Grassland_4 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 10.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_5
+Transform {
+    translation -2.00 0.075 -22.00
+    children [
+        DEF Grassland_5 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 56.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_6
+Transform {
+    translation -15.00 0.075 22.00
+    children [
+        DEF Grassland_6 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 30.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_7
+Transform {
+    translation 21.00 0.075 22.00
+    children [
+        DEF Grassland_7 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 11.00 0.15 12.00
+			}
+        }
+    ]
+}
+
+# Grassland_8
+Transform {
+    translation 8.00 0.075 26.00
+    children [
+        DEF Grassland_8 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 16.00 0.15 4.00
+			}
+        }
+    ]
+}
+
+# Grassland_9
+Transform {
+    translation 33.00 0.075 0.00
+    children [
+        DEF Grassland_9 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.564 0.933 0.564
+			    }
+			}						
+			geometry Box {
+				size 14.00 0.15 56.00
+			}
+        }
+    ]
+}
+
+# Car_Park
+# Pool
+Transform {
+    translation 8.00 0.075 20.00
+    children [
+        DEF Pool Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 16.00 0.15 8.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 8.00 0.150 16.25
+    children [
+        DEF Pool Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 16.00 0.30 0.50
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 8.00 0.150 23.75
+    children [
+        DEF Pool Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 16.00 0.30 0.50
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 0.25 0.150 20.00
+    children [
+        DEF Pool Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 0.50 0.30 8.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 15.75 0.150 20.00
+    children [
+        DEF Pool Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 0.50 0.30 8.00
+			}
+        }
+    ]
+}
+
+# Pole_Base
+Transform {
+    translation -18.00 0.15 0.00
+    children [
+        DEF Pole_Base Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 4.00 0.3 12.00
+			}
+        }
+    ]
+}
+
+# Pole_1
+Transform {
+    translation -18.00 2.00 0.00
+    children [
+        DEF Pole_1 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 0.25 4.00 0.25
+			}
+        }
+    ]
+}
+
+# Pole_2
+Transform {
+    translation -18.00 2.87 0.00
+    children [
+        DEF Pole_2 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.468 0.468 0.468
+			    }
+			}						
+			geometry Box {
+				size 0.25 0.25 4.00
+			}
+        }
+    ]
+}
+
+# Pole_3
+Transform {
+    translation -18.00 3.87 0.00
+    children USE Pole_2
+}
+
+# Marking_1
+Transform {
+    translation -36.00 0.00 0.00
+    children [
+        DEF Marking_1 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 1.000 1.000 1.000
+			    }
+			}						
+			geometry Box {
+				size 2.00 0.15 8.00
+			}
+        }
+    ]
+}
+
+# Marking_2
+Transform {
+    translation -36.00 0.00 16.00
+    children USE Marking_1
+}
+
+# Marking_3
+Transform {
+    translation -36.00 0.00 -16.00
+    children USE Marking_1
+}
+
+# Marking_4
+Transform {
+    translation 22.00 0.00 8.00
+    children USE Marking_1
+}
+
+# Marking_5
+Transform {
+    translation 22.00 0.00 -8.00
+    children USE Marking_1
+}
+
+# Marking_6
+Transform {
+    translation 8.00 0.00 -11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Marking_7
+Transform {
+    translation -8.00 0.00 -11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Marking_8
+Transform {
+    translation -24.00 0.00 -11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Marking_9
+Transform {
+    translation 8.00 0.00 11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Marking_10
+Transform {
+    translation -8.00 0.00 11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Marking_11
+Transform {
+    translation -24.00 0.00 11.00
+	rotation 0.0 1.0 0.0 1.57079
+    children USE Marking_1
+}
+
+# Broadleaf_Tree
+DEF Broadleaf_Tree Transform {
+    translation 0.00 0.00 -22.00
+    children [
+	    # Trunk
+	    Transform {
+            translation 0.00 1.25 0.00
+			children Shape {
+			    appearance Appearance {
+			        material Material {
+			            diffuseColor 0.400 0.100 0.000
+			        }
+			    }						
+                geometry Cylinder {
+                    radius 0.30
+                    height 2.50
+			    }
+			}
+		}		
+		# Leaf
+	    Transform {
+            translation 0.00 4.50 0.00
+			children Shape {
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.176 0.729 0.117
+					}
+				}						
+				geometry Cone {
+					height 4.00
+					bottomRadius 0.90
+				}
+		    }
+		}
+	]
+}
+
+Transform {
+    translation 34.00 0.00 0.00
+	scale 0.80 0.80 0.80
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation 34.00 0.00 0.00
+	scale 0.80 0.80 0.80
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation -22.00 0.00 10.00
+	scale 0.50 0.50 0.50
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation -25.00 0.00 22.00
+	scale 0.90 0.90 0.90
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation -20.00 0.00 30.00
+	scale 0.40 0.40 0.40
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation 36.00 0.00 30.00
+	scale 1.00 1.00 1.00
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation 32.00 0.00 40.00
+	scale 1.00 1.00 1.00
+    children USE Broadleaf_Tree
+}
+
+Transform {
+    translation 38.00 0.00 20.00
+	scale 0.50 0.50 0.50
+    children USE Broadleaf_Tree
+}
+
+# Fruit_Tree
+DEF Fruit_Tree Transform {
+    translation 22.00 0.00 20.00
+    children [
+	    # Trunk
+	    Transform {
+            translation 0.00 0.50 0.00
+			children Shape {
+			    appearance Appearance {
+			        material Material {
+			            diffuseColor 0.40 0.10 0.00
+			        }
+			    }						
+                geometry Cylinder {
+                    radius 0.20
+                    height 1.00
+			    }
+			}
+		}
+		
+		# Leaf
+	    Transform {
+            translation 0.00 1.50 0.00
+			children Shape {
+				appearance Appearance {
+					material Material {
+						diffuseColor 1.000 0.639 0.164
+					}
+				}						
+				geometry Sphere {
+				    radius 1.00
+				}
+		    }
+		}
+	]
+}
+
+Transform {
+    translation -28.00 0.00 -30.00
+	scale 0.60 0.60 0.60
+    children USE Fruit_Tree
+}
+
+Transform {
+    translation -34.00 0.00 8.00
+	scale 0.50 0.50 0.50
+    children USE Fruit_Tree
+}
+
+Transform {
+    translation -30.00 0.00 10.00
+	scale 0.80 0.80 0.80
+    children USE Fruit_Tree
+}
+
+# Building
+Transform {
+    translation 0.00 6.00 0.00
+    children [
+        DEF Building_Inside Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.300 0.300 0.300
+			    }
+			}						
+			geometry Box {
+				size 12.00 12.00 4.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 7.00 6.00 0.00
+    children [
+        DEF Building_Wall_1 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 2.00 12.00 8.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation -7.00 6.00 0.00
+    children USE Building_Wall_1
+}
+
+Transform {
+    translation 5.00 6.00 3.00
+    children [
+        DEF Building_Wall_2 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 2.00 12.00 2.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation -5.00 6.00 3.00
+    children USE Building_Wall_2
+}
+
+Transform {
+    translation 5.00 6.00 -3.00
+    children USE Building_Wall_2
+}
+
+Transform {
+    translation -5.00 6.00 -3.00
+    children USE Building_Wall_2
+}
+
+Transform {
+    translation 0.00 1.00 3.00
+    children [
+        DEF Building_Wall_3 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 8.00 2.00 2.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 0.00 6.00 3.00
+    children USE Building_Wall_3
+}
+
+Transform {
+    translation 0.00 11.00 3.00
+    children USE Building_Wall_3
+}
+
+Transform {
+    translation 0.00 1.00 -3.00
+    children USE Building_Wall_3
+}
+
+Transform {
+    translation 0.00 6.00 -3.00
+    children USE Building_Wall_3
+}
+
+Transform {
+    translation 0.00 11.00 -3.00
+    children USE Building_Wall_3
+}
+
+Transform {
+    translation 0.00 6.00 4.00
+    children [
+        DEF Building_Wall_4 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 10.00 1.0 0.50
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 6.00 3.00 4.00
+    children [
+        DEF Building_Wall_5 Shape {
+		    appearance Appearance {
+			    material Material {
+			        #diffuseColor 1.000 0.843 0.000
+					diffuseColor 0.03 0.819 0.800
+			    }
+			}						
+			geometry Box {
+				size 2.00 4.0 0.50
+			}
+        }
+    ]
+}
+
+Transform {
+    translation -6.00 3.00 4.00
+    children USE Building_Wall_5
+}
+
+Transform {
+    translation 0.00 6.00 7.00
+	rotation 1.0 0.0 0.0 -45
+    children [
+        DEF Shading Shape {
+		    appearance Appearance {
+			    material Material {
+			        #diffuseColor 0.862 0.078 0.235
+					diffuseColor 0.03 0.819 0.800
+			    }
+			}						
+			geometry Box {
+				size 8.00 2.0 0.10
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 0.00 12.00 0.00
+    children [
+        DEF Building_Top_1 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+			geometry Box {
+				size 16.00 1.00 8.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 0.00 14.00 4.00
+    children [
+        DEF Building_Top_2 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.03 0.819 0.800
+			    }
+			}						
+			geometry Box {
+				size 18.00 3.00 3.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 0.00 14.00 -4.00
+    children USE Building_Top_2
+}
+
+Transform {
+    translation 8.00 14.00 0.00
+    children [
+        DEF Building_Top_3 Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.03 0.819 0.800
+			    }
+			}						
+			geometry Box {
+				size 3.00 3.00 11.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation -8.00 14.00 0.00
+    children USE Building_Top_3
+}
+
+Transform {
+    translation 12.00 6.00 0.00
+    children [
+        DEF Sign Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 1.000 1.000 1.000
+			    }
+			}						
+			geometry Box {
+				size 4.00 8.00 2.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 10.00 4.50 0.00
+    children [
+        DEF Sign_Support Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.184 0.309 0.309
+			    }
+			}						
+			geometry Box {
+				size 4.00 1.00 1.00
+			}
+        }
+    ]
+}
+
+Transform {
+    translation 10.00 7.50 0.00
+    children USE Sign_Support
+}
+
+Transform {
+    translation 13.00 9.00 1.01
+	children [
+        DEF Sign_Text Shape {
+		    appearance Appearance {
+			    material Material {
+			        diffuseColor 0.529 0.867 0.980
+			    }
+			}						
+		    geometry Text {
+			    string [ "S" "T"  "O"  "R"  "E" ]
+			    fontStyle FontStyle {
+			       family [ "Serenity", "SERIF" ]
+			    }
+			    length [ 12 16 ]
+		    }
+        }
+    ]
+}
+
+Transform {
+    translation 13.00 9.00 -1.01
+    children USE Sign_Text
+}
